@@ -1,0 +1,145 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Movie Card Styles */
+.movie-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card-content {
+  padding: 15px;
+}
+
+.movie-card h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.movie-card p {
+  color: #555;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.movie-card button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.movie-card button:hover {
+  background-color: #e55b4a;
+}
+
+/* Movie List */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Filter Styles */
+.filter-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.filter-container input {
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+/* Add Movie Form Styles */
+.add-movie-form input {
+  padding: 8px;
+  font-size: 16px;
+  margin: 10px;
+  width: 200px;
+}
+
+.add-movie-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-movie-form button:hover {
+  background-color: #45a049;
+}
+
+/* Movie Details Page */
+.movie-details {
+  text-align: center;
+}
+
+.movie-details iframe {
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+}
+
+.movie-details button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.movie-details button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .movie-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .movie-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
