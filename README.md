@@ -1,3 +1,3 @@
-# React Router Checkpoint
+# REACT ROUTER CHECKPOINT
 
-https://github.com/DBusuru/React-_Router-_Checkpoint.git
+https://github.com/geoffreykemboi/reactroutercheckpoint.git
